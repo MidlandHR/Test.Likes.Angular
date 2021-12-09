@@ -1,6 +1,10 @@
-# TestsLikesAngular
+# Angular likes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Write a reusable angular component that allows a user to like or dislike a blog post. They can click a like or dislike button. Clicking the like button increases the number of likes, clicking dislike decreases the number of likes. A post can have a maximum of ten likes.
+
+## Bonus
+
+Persist the number of likes and load in the persisted number when loading the page.
 
 ## Development server
 
