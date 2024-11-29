@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  template: `
+    selector: 'app-root',
+    template: `
     <h1>Blog post</h1>
 
     <p>
@@ -11,7 +11,8 @@ import { Component } from '@angular/core';
     
     <app-likes></app-likes>
   `,
-  styles: []
+    styles: [],
+    standalone: false
 })
 export class AppComponent {
   title = 'tests-likes-angular';
